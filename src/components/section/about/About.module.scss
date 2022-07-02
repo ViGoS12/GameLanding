@@ -1,0 +1,73 @@
+@import '../../../scss/variables.scss';
+
+.about {
+  background: url('../../../assets/png/about.png');
+  background-position: center;
+  background-size: cover;
+
+  height: 100vh;
+
+  &__gradient {
+    height: 100vh;
+    background: radial-gradient(
+      136.03% 54.57% at 50% 48.04%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 60.63%,
+      #080a0b 99.74%
+    );
+  }
+
+  &__blackScreen {
+    background: #0f0f0f;
+    opacity: 0.9;
+  }
+
+  &__container {
+    padding-top: 187px;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  &__leftside {
+    margin-top: 68px;
+  }
+
+  &__subtitle {
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 2px;
+    margin-bottom: 9px;
+  }
+
+  &__title {
+    width: 410px;
+    font-weight: 400;
+  }
+
+  &__text {
+    width: 364px;
+    margin-left: auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+  }
+}
+
+.separator {
+  width: 711.5px;
+  height: 3px;
+  background: $white;
+  border-radius: 4px;
+  margin-bottom: 38px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  border-bottom: solid 5px $orange;
+}
